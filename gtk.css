@@ -74,8 +74,20 @@ VteTerminal, vte-terminal {
 	font-weight: 300;
 }
 
+XfdesktopIconView {
+	-gtk-icon-shadow: 2px 2px 0 #000000;
+}
+
 XfdesktopIconView.label {
 	color: #9666ff;
+	border-radius: 0;
+}
+
+XfdesktopIconView.label:active,
+XfdesktopIconView.label:selected,
+XfdesktopIconView .rubberband,
+XfdesktopIconView rubberband {
+	border-radius: 0;
 }
 
 .nemo-window .view {
