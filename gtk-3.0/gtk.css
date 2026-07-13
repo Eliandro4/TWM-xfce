@@ -100,6 +100,15 @@ XfdesktopIconView rubberband {
 	color: #9666ff;
 }
 
+.xfce4-panel .tasklist {
+	-XfceTasklist-minimized-icon-lucency: 100;
+}
+
+.xfce4-panel .tasklist label.label-hidden,
+.xfce4-panel .tasklist image.minimized {
+	opacity: 1;
+}
+
 #clock-button {
 	margin-top: 2px;
 	color: #9666ff;
